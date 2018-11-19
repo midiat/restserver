@@ -10,6 +10,20 @@ process.env.PORT = process.env.PORT || 8080;
 //==============
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
+//==============
+//Token expire
+//==============
+//60 segundos
+//60 minutos
+//24 horas
+//30 dias
+process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30; 
+
+//==============
+//SEED de auth
+//==============
+//process.env.SEED = process.env.SEED || 'secret';
+process.env.SEED = 'secret';
 
 //==============
 //DATABASE
