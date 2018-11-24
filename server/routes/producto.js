@@ -1,7 +1,5 @@
 const express = require('express');
-const {
-    verificaToken
-} = require('../middlewares/autenticacion');
+const { verificaToken } = require('../middlewares/autenticacion');
 let Producto = require('../models/producto');
 
 let app = express();
